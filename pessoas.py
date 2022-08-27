@@ -3,11 +3,11 @@ import tkinter.ttk as ttk
 import mysql.connector
 from tkinter.messagebox import showinfo
 from tkinter import messagebox as msg
-
+# TESTE
 mydb = mysql.connector.connect(
     host="localhost",
-    user="Yuri",
-    password="yuribr12",
+    user="",
+    password="",
     database="dbpython"
 )
 cursor = mydb.cursor()
